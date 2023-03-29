@@ -1,0 +1,104 @@
+.nav {
+  height: 10vh;
+  width: 100%;
+}
+.nav-wrapper {
+  height: 10vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  & > :nth-child(1) {
+    width: 80%;
+    display: flex;
+    & > :nth-child(1) {
+      width: 20%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & img {
+        height: 10rem;
+        width: 10rem;
+        object-fit: contain;
+      }
+    }
+    & > :nth-child(2) {
+      display: none;
+    }
+    & > :nth-child(3) {
+      width: 40%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      list-style: none;
+      font-size: 16px;
+      font-weight: 400;
+    }
+    & > :nth-child(4) {
+      display: none;
+    }
+  }
+  & > :nth-child(2) {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    & > :nth-child(1) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #443fd9;
+      color: white;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      padding: 12px 20px;
+      font-weight: 500;
+    }
+  }
+}
+
+.nav-wrapper > :nth-child(2) > :nth-child(1) a {
+  color: white;
+}
+
+.contactLink {
+  background: -webkit-linear-gradient(right, #42b1f8 30%, #f1bc46);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 740px) {
+  .nav {
+    height: 10vh;
+    width: 100%;
+  }
+  .nav-wrapper {
+    height: 10vh;
+    width: 100%;
+    & > :nth-child(1) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      & > :nth-child(1) {
+        width: 35%;
+      }
+      & > :nth-child(2) {
+        width: 25%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+          height: 3rem;
+          width: 3rem;
+        }
+      }
+      & > :nth-child(3) {
+        display: none;
+      }
+    }
+    & > :nth-child(2) {
+      display: none;
+    }
+  }
+}

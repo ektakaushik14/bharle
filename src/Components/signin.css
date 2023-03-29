@@ -1,0 +1,58 @@
+.signinPage form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.signinPage div {
+  width: 90%;
+}
+
+.signinPage label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.signinPage input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signinPage button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signinPage button:hover {
+  background-color: #0062cc;
+}
+
+.bookReg {
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.bookReg:hover {
+  background-color: #0062cc;
+}
+.codex-editor__redactor {
+  padding-bottom: 100px !important;
+}

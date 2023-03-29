@@ -1,0 +1,48 @@
+.writeContainer {
+  background: #181d22;
+  min-height: 100vh;
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.writeContainer h1{
+  color: white;
+padding-bottom: 2rem;
+}
+.editorjs {
+  margin: 10px auto 0 auto;
+  width: 60%;
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 0;
+}
+
+.saveEditor button {
+  margin: 1rem 0rem;
+  padding: 0.7rem 2.4rem;
+  background-color: #443fd9;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.writeContainerHeader {
+  width: 60%;
+}
+.writeContainerHeader > div {
+  color: white;
+  margin: 10px 0;
+}
+.writeContainerHeader > div input {
+  padding: 8px 22px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 50%;
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
